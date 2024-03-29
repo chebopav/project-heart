@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Header from "./components/Header";
+import React from "react";
+import HeaderFooter from "./components/HeaderFooter";
+import MenuItem from "./components/MenuItem";
+import Menu from "./components/Menu";
+import MainContent from "./components/MainContent";
 
 function App() {
+    let arr = new Array(20);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+        <div className="mainHeaderFooter">
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+            <HeaderFooter/>
+        </div>
+        <div>
+            <Menu/>
+        </div>
+        <div>
+            <MainContent/>
+        </div>
     </div>
   );
 }

@@ -1,0 +1,23 @@
+.menuItem {
+    width: 20%;
+    text-align: center;
+    height: 100%;
+}
+
+
+button {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: white;
+    background-image: linear-gradient(to bottom right, rgba(194, 14, 67, 0.87), rgba(90, 0, 1, 0.93));
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.pressed {
+    background-image: linear-gradient(to bottom right, rgba(215, 86, 54, 0.93), rgba(246, 165, 3, 0.93));
+    color: #240b01;
+}

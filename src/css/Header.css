@@ -1,0 +1,43 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: forHeart;
+    src: url('https://fonts.googleapis.com/css2?family=Gabriela&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+}
+
+.main {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.spbLogo {
+    display: block;
+    text-align: center;
+}
+
+#logoImgId {
+    height: 100px;
+}
+
+#projectName {
+    font-family: forHeart;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #3a1d5f;
+}
+
+#slogan {
+    font-family: myFirstFont;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 20px;
+}
