@@ -2,20 +2,15 @@ import React from 'react';
 import MenuItem from "./MenuItem";
 import '../css/Menu.css'
 
-const Menu = () => {
-    const menuElementsProp = [
-        {menuItemName: 'Сердце как объект'},
-        {menuItemName: 'Функции серца и кровеносной системы'},
-        {menuItemName: 'Строение сердца и Кровеносной системы'},
-        {menuItemName: 'Сердечно-сосудистые заболевания'},
-        {menuItemName: 'Полезные ссылки'}
-    ];
-
+const Menu = (props) => {
+    function changeState(val) {
+        props.selectedValue(val);
+    }
 
     return (
         <div className="mainMenuClass">
-            {menuElementsProp.map(elem =>
-                <MenuItem menuItemName={elem.menuItemName}/>
+            {props.menuElemets.map(elem =>
+                <MenuItem key={elem.id} menuItemName={elem.menuItemName} func={changeState} isSubLevel={elem.isSubLevel}/>
             )}
         </div>
     );

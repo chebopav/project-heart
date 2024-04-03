@@ -8,3 +8,7 @@
 .mainHeaderFooter {
     display: flex;
 }
+
+#subMenuBar {
+    display: none;
+}

@@ -1,4 +1,6 @@
 .mainMenuClass {
     display: flex;
     justify-content: stretch;
+    width: 100%;
+    padding-bottom: 5px;
 }
