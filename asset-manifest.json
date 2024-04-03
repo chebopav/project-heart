@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/project-heart/static/css/main.a528f162.css",
+    "main.css": "/project-heart/static/css/main.e0fd2a83.css",
     "main.js": "/project-heart/static/js/main.3f3497af.js",
     "static/media/inside_heart_2.jpeg": "/project-heart/static/media/inside_heart_2.5c3e8403a9229a0d3a15.jpeg",
     "static/media/heartbeat.gif": "/project-heart/static/media/heartbeat.88e41a1e2549ba5383ea.gif",
@@ -38,11 +38,11 @@
     "static/media/youtube.jpg": "/project-heart/static/media/youtube.1d60ce1a7dd6dd3eb6e9.jpg",
     "static/media/spb.png": "/project-heart/static/media/spb.cdd8e77d58124132bca9.png",
     "index.html": "/project-heart/index.html",
-    "main.a528f162.css.map": "/project-heart/static/css/main.a528f162.css.map",
+    "main.e0fd2a83.css.map": "/project-heart/static/css/main.e0fd2a83.css.map",
     "main.3f3497af.js.map": "/project-heart/static/js/main.3f3497af.js.map"
   },
   "entrypoints": [
-    "static/css/main.a528f162.css",
+    "static/css/main.e0fd2a83.css",
     "static/js/main.3f3497af.js"
   ]
 }
