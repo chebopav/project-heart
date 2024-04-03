@@ -1,11 +1,12 @@
 .menuItem {
-    width: 25%;
+    flex: auto;
     text-align: center;
     height: 100%;
 }
 
 
 button {
+    align-self: flex-start;
     width: 100%;
     height: 100%;
     padding: 15px;
